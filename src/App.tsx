@@ -34,8 +34,8 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-pink-50 via-white to-pink-100 font-sans text-gray-800">
-      <header className="max-w-6xl mx-auto p-6 flex items-center justify-between">
-        <div className="flex items-center gap-4">
+      <header className="max-w-6xl mx-auto p-6 flex flex-col md:flex-row items-center md:justify-between gap-4">
+        <div className="flex items-center gap-4 min-w-0">
           {/* Logo: reemplaza public/logo.png con tu imagen */}
           <img src="/image/Logo.png" alt="Florería Dulce Aroma" className="w-20 h-20 object-contain rounded-lg shadow" />
           <div>
@@ -117,9 +117,9 @@ export default function App() {
           <div className="bg-gradient-to-r from-pink-50 to-white rounded-2xl p-4 shadow-md">
             <h3 className="font-semibold">Novedades</h3>
             <p className="text-sm text-gray-600">Suscríbete para recibir promociones y diseños nuevos.</p>
-            <div className="mt-3 flex gap-2">
-              <input placeholder="Tu correo" className="flex-1 rounded-lg p-2 border" />
-              <button className="px-4 rounded-lg bg-pink-600 text-white font-medium">Suscribirme</button>
+            <div className="mt-3 flex gap-2 flex-col sm:flex-row">
+              <input placeholder="Tu correo" className="flex-1 min-w-0 rounded-lg p-2 border" />
+              <button className="w-full sm:w-auto px-4 rounded-lg bg-pink-600 text-white font-medium">Suscribirme</button>
             </div>
           </div>
         </div>
