@@ -24,8 +24,8 @@ const CONTACT_DATA = {
 const SAMPLE_PRODUCTS = [
   { id: 1, name: 'Ramo Rosas Clásicas', price: '$750', imgQuery: 'roses,bouquet', img: '/image/Flor1.avif' },
   { id: 2, name: 'Mix Primavera', price: '$620', imgQuery: 'spring flowers,flowers', img: '/image/Flor2.webp' },
-  { id: 3, name: 'Orquídea Elegante', price: '$980', imgQuery: 'orchid,flower', img: '/image/Flor3.webp' },
-  { id: 4, name: 'Caja Dulce Aroma', price: '$1,200', imgQuery: 'flower box,roses', img: '/image/Flor4.jpg' },
+  { id: 3, name: 'Ramos Personalizados', price: '$980', imgQuery: 'orchid,flower', img: '/image/Flor3.webp' },
+  { id: 4, name: 'Flores decorativas para cualquier evento', price: '$1,200', imgQuery: 'flower box,roses', img: '/image/Flor4.jpg' },
 ];
 
 
